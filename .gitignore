@@ -1,0 +1,23 @@
+# Python 
+*.pyc
+*~
+__pycache__
+
+#Env
+.env
+envdj/
+venv/
+
+#Databses
+db.sqlite3
+
+#VSCode
+.vscode/
+.history/
+*.code-workspace
+
+#Windows
+Thumbs.db*
+ehthumbs*.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
