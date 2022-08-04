@@ -6,7 +6,7 @@ from .models import Post
 
 def post_list(request):
     
-    me = User.objects.get(username='cuff')
+    me = User.objects.get(username='cuffaz')
 
     Post.objects.create(author=me, title="First_title", text="I adore wordplay", created_date=timezone.now()) 
     Post.objects.create(author=me, title="Second_title", text="I could adore wordplay", created_date=timezone.now()) 
